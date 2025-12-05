@@ -2,9 +2,19 @@
   "name": "media-diary-backend",
   "version": "0.0.1",
   "private": true,
+  "type": "commonjs",
   "scripts": {
-    "lint": "echo \"(backend) lint ainda não configurado\"",
-    "test": "echo \"(backend) testes ainda não configurados\" && exit 0",
-    "build": "echo \"(backend) build ainda não configurado\""
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"(backend) testes ainda não configurados\" && exit 0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-import": "^2.32.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.0"
   }
 }
