@@ -1,0 +1,10 @@
+{
+  "name": "media-diary-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint": "echo \"(frontend) lint ainda não configurado\"",
+    "test": "echo \"(frontend) testes ainda não configurados\" && exit 0",
+    "build": "echo \"(frontend) build ainda não configurado\""
+  }
+}

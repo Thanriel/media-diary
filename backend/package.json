@@ -1,0 +1,10 @@
+{
+  "name": "media-diary-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint": "echo \"(backend) lint ainda não configurado\"",
+    "test": "echo \"(backend) testes ainda não configurados\" && exit 0",
+    "build": "echo \"(backend) build ainda não configurado\""
+  }
+}
